@@ -1,0 +1,179 @@
+    nav{
+        background-color: rgb(124, 119, 119);
+        height: 50px;
+        margin:auto;
+        padding-top:10px;
+        padding-bottom:13px;
+        margin-bottom: 10px; 
+            position: relative;
+            overflow: hidden;
+            margin-right: 10px;
+            margin-top:10px;  
+            position: fixed;
+            top: 0;
+            width: 100%;
+    }
+    .header{
+        text-align: center; 
+        color:red ;
+        padding-left: 600px;   
+        padding-top: 20px;  
+        padding-bottom: 10px;
+        width: 200px;
+        width:30%;
+        height:180px;
+        font-size:100px;
+        font-family: 'Bangers', cursive;
+        background-image:url(../Images/pos.jpg);
+        background-repeat: no-repeat; 
+    }
+
+    .clubs img{
+        height:150px;
+        width: 290px;
+        padding-bottom: 20px;
+        
+    }
+    .clubs{
+        width:1250px;
+        margin:auto;    
+    padding-bottom:20px; 
+    }
+
+    li
+    {
+        display: inline;
+        padding-right: 30px;  
+    }
+
+    ul a{
+        text-decoration: none;
+        color: black;
+    padding-right: 40px;
+        font-size:40px;
+    font-family: 'Bangers', cursive; 
+    
+        
+    }
+    ul a:hover{
+        text-decoration: none;
+        color:red;
+
+    }
+
+
+    .back{
+        background-image:url(../Images/cristiano-ronaldo-1.png);
+        height: 450px;
+        opacity: 0.6;
+        position: relative;
+        background-attachment: fixed;
+        width:100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+
+    .main2{
+        background-image:url(../Images/RON1.jpg);
+        height: 450px;
+        opacity: 0.7;
+        position: relative;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .caption{
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+
+    }
+    body{
+        background-color:black; 
+    
+    
+    }
+
+    ul.teams{
+        margin-top:auto;
+        padding-left:80px;
+        height: 20px;
+    }
+
+    .champ ul{
+        margin:auto;
+        height: 280px;
+    
+    }
+
+    h3{
+     margin: 40px;
+    }
+
+    .about li{
+    display: block;
+    color:yellow;
+    font-family: 'Bangers', cursive;
+    font-size: 35px;
+    }
+
+    footer.icons li{
+        font-family: 'Righteous', cursive;
+        font-size: 20x;
+        display: inline;
+        padding-left: 40px;
+    }
+
+    footer.icons i{
+        
+        color: white;
+    }
+
+    footer.icons i:hover{
+        color: blue;
+    }
+
+    
+
+    .flex-container{
+        padding: 0;
+        margin:0;
+        list-style: none;
+        background-image:url(../Images/anff.jpg);
+        opacity: 0.5;
+        display: flex;
+        height:40vw;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    
+    }
+    
+    .flex-item {
+        width: 100px;
+        height: 30%;
+        margin-top: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
+        line-height: 150px;
+        color: white;
+        font-weight: bold;
+        font-size: 3em;
+        text-align: center;
+        flex: 1 0 calc(33.333% - 20px); 
+    } 
+
+    .responsive{
+        width:100%;
+        height: auto;
+    }
+
+
+    @media screen and (max-width:500px){
+        .body {
+            width:50%;
+        }
+    } 
